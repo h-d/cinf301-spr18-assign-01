@@ -1,0 +1,125 @@
+
+
+
+/*BODY + WRAPPER*/
+body {
+    background-image: url("../images/alert.gif");
+}
+
+div.wrap {
+    width:1000px;
+    margin:0 auto;
+    background-color: black;
+}
+
+header {
+    color: yellow;
+    text-align: center;
+    align-content: center;
+    font-family: 'Special Elite', cursive;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+header h2 {
+    font-size: 50px;
+}
+
+header h3 {
+    font-size: 35px;
+}
+
+
+header img {
+    width: 800px;
+    height: 600px;
+    position: center;
+}
+
+
+/*NAVBAR*/
+nav {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    background-color: yellow;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+nav li {
+    display: inline;
+    float: left;
+
+}
+
+nav li a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+
+main {
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 20px;
+}
+
+main img {
+    margin: 40px auto;
+}
+
+
+main input[type="text"]
+{
+    font-family: 'Walter Turncoat', cursive;
+    font-size:20px;
+    background-color: yellow;
+    color: black;
+}
+
+
+main input[type="submit"]
+{
+    font-family: 'Walter Turncoat', cursive;
+    font-size:30px;
+    background-color: white;
+    color: black;
+    margin-bottom: 100px;
+}
+
+main input[type="submit"]:hover {
+    background-color: yellow;
+}
+
+
+footer {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    background-color: yellow;
+    text-align: center;
+    align-content: center;
+}
+
+footer img {
+    margin :20px auto;
+}
+
